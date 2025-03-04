@@ -11,7 +11,9 @@ public class SimpleGui1 {
         //serve solo a spegnere il programma quando si vuole chiudere la finestra
 
         frame.getContentPane().add(button);
+        //add button (also called widget) to frame
 
+        frame.pack();
         frame.setSize(300, 300);
         frame.setVisible(true);
     }
