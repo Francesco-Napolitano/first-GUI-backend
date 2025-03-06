@@ -3,10 +3,7 @@ package org.example.giorno2;
 import org.example.MyDrawPanel;
 
 import javax.swing.*;
-import javax.swing.border.Border;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 public class TwoButtonsButWithLambda {
     private JFrame frame;
